@@ -10,7 +10,7 @@
 
 UBYS sisteminde geliştirici panelini açtıktan sonra aşağıdaki komutları konsola yapıştırarak çalıştırabilirsiniz.
 
-![Geliştirici Konsolu Açma](images\1.PNG)
+![Geliştirici Konsolu Açma](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/5.PNG)
 
 ### 2. Komutun Çalıştırılması
 Aşağıdaki komut, anket sayfasındaki tüm radio butonlarını otomatik olarak seçer. 
@@ -24,10 +24,8 @@ $('[type="radio"]').each((index, element) => {
 });
 ```
 
-![Komut Çalıştırma](images\4.PNG)
+![Komut Çalıştırma](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/4.PNG)
 
-
-**Not:** Farklı notlandırmalar için koddaki `5` sayısını değiştirerek, seçimlerinizi uyarlayabilirsiniz.
 
 ### Warning Hatası Alırsanız
 Konsolda bir *Warning* hatası görüyorsanız, aşağıdaki komutu çalıştırarak bu hatayı çözebilirsiniz:
@@ -36,7 +34,7 @@ Konsolda bir *Warning* hatası görüyorsanız, aşağıdaki komutu çalıştır
 allow pasting
 ```
 
-![Warning](images\2.PNG)
+![Warning](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/2.PNG)
 
 ### 3. Puanlandırma Değerleri
 
@@ -49,6 +47,6 @@ Koddaki `5` değerini aşağıdaki puanlamalara göre değiştirebilirsiniz:
 5. **Kesinlikle Katılıyorum**
 
 ---
-![Sonuç Görseli](images\3.PNG)
+![Sonuç Görseli]([images\3.PNG](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/3.PNG))
 
 **Dikkat:** Bu araç yalnızca eğitim ve rehberlik amacıyla paylaşılmıştır. Lütfen üniversitenizin kurallarını göz önünde bulundurarak kullanın.
