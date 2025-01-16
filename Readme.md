@@ -30,7 +30,7 @@ setTimeout(() => {
 }, 500); // 500 ms bekleme süresi, DOM'un güncellenmesini beklemek için
 ```
 
-![Komut Çalıştırma](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/4.PNG)
+![Komut Çalıştırma](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/4c0356c132b2ed0da1c1945b447bf1fdc68e1d50/images/6.PNG)
 
 
 ### Warning Hatası Alırsanız
