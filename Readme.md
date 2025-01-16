@@ -16,12 +16,18 @@ UBYS sisteminde geliştirici panelini açtıktan sonra aşağıdaki komutları k
 Aşağıdaki komut, anket sayfasındaki tüm radio butonlarını otomatik olarak seçer. 
 
 ```javascript
+// Seçim yap
 $('[type="radio"]').each((index, element) => {
     if ((index + 1) % 5 === 0 || index === 70) { // 5'in katı veya indeks 71 ise
         $(element).prop('checked', true); // Radio butonunu seçili yap
-        $(element).parent('div').addClass('checked'); 
+        $(element).parent('div').addClass('checked');
     }
 });
+
+// Anketi bitir butonuna tıkla
+setTimeout(() => { 
+    document.querySelector("#surveyParent > div:nth-child(5) > div > a")?.click();
+}, 500); // 500 ms bekleme süresi, DOM'un güncellenmesini beklemek için
 ```
 
 ![Komut Çalıştırma](https://github.com/AysenurYrr/IMU_anket_otomasyon/blob/b416eeb1711c81009688df84b35c6adc21963495/images/4.PNG)
